@@ -1,42 +1,20 @@
-title: Dr. Felippe Espinelli
-tagline: Neuroscientist | Chief Research Officer | Translational Researcher
-description: Translational behavioural neuroscientist specializing in experimental models of neuropsychiatric disorders and AI-driven platforms.
-url: "https://yourusername.github.io" # Replace with your username
+title: "Dr. Felippe Espinelli"
+author: "Felippe Espinelli"
+description: "Translational Neuroscientist | Chief Research Officer | Speaker"
+url: "https://yourusername.github.io" # Replace with your actual GitHub username
 
-# Theme setup
-remote_theme: "mmistakes/minimal-mistakes@4.28.0"
-minimal_mistakes_skin: "air" # Options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+# Jekyll & Theme Setup
+theme: minima
 
-# Plugins required by GitHub Pages
+# Header Navigation Links (Reshma Saujani style header)
+header_pages:
+  - index.md
+  - research.md
+  - leadership.md
+  - cv.md
+  - products.md
+
+# Build Plugins (Supported natively by GitHub Pages)
 plugins:
-  - jekyll-include-cache
-
-# Navigation Menu
-main_links:
-  - title: "About"
-    url: /
-  - title: "Research & Publications"
-    url: /publications/
-  - title: "Leadership & Impact"
-    url: /leadership/
-  - title: "CV"
-    url: /cv/
-  - title: "Books & Products"
-    url: /products/
-
-# Author Profile (Sidebar)
-author:
-  name: "Dr. Felippe Espinelli"
-  avatar: "/assets/images/headshot.jpg" # Upload your photo here later
-  bio: "CRO at Memorify | Visiting Researcher at University of Cambridge"
-  location: "Brazil / UK"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/felippeespinelliphd/"
-    - label: "ORCID"
-      icon: "fas fa-fw fa-id-badge"
-      url: "https://orcid.org/0000-0002-1922-8211"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope"
-      url: "mailto:fe284@cam.ac.uk"
+  - jekyll-feed
+  - jekyll-seo-tag

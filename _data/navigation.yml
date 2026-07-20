@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /
+  - title: "Research & Publications"
+    url: /publications/
+  - title: "Leadership"
+    url: /leadership/
+  - title: "CV"
+    url: /cv/
+  - title: "Books & Products"
+    url: /products/
